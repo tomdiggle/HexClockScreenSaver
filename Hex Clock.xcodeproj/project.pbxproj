@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32548DB91B985EF10050CAFE /* HexClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32548DB81B985EF10050CAFE /* HexClockView.swift */; settings = {ASSET_TAGS = (); }; };
+		32548DC11B985F8F0050CAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32548DC01B985F8F0050CAFE /* AppDelegate.swift */; };
+		32548DC31B985F8F0050CAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32548DC21B985F8F0050CAFE /* ViewController.swift */; };
+		32548DC51B985F8F0050CAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32548DC41B985F8F0050CAFE /* Assets.xcassets */; };
+		32548DC81B985F8F0050CAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32548DC61B985F8F0050CAFE /* Main.storyboard */; };
+		32548DCD1B985F9B0050CAFE /* HexClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32548DB81B985EF10050CAFE /* HexClockView.swift */; settings = {ASSET_TAGS = (); }; };
+		32548DD21B9872330050CAFE /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32548DCF1B9872330050CAFE /* NSColor.swift */; settings = {ASSET_TAGS = (); }; };
+		32548DD31B9872330050CAFE /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32548DCF1B9872330050CAFE /* NSColor.swift */; settings = {ASSET_TAGS = (); }; };
+		32548DD41B9873210050CAFE /* HexClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32548DCE1B9872330050CAFE /* HexClock.swift */; settings = {ASSET_TAGS = (); }; };
+		32548DD51B9873240050CAFE /* HexClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32548DCE1B9872330050CAFE /* HexClock.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32548DAB1B985A5D0050CAFE /* Hex Clock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hex Clock.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32548DB21B985A5D0050CAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32548DB81B985EF10050CAFE /* HexClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexClockView.swift; sourceTree = "<group>"; };
+		32548DBE1B985F8F0050CAFE /* Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32548DC01B985F8F0050CAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32548DC21B985F8F0050CAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32548DC41B985F8F0050CAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32548DC71B985F8F0050CAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32548DC91B985F8F0050CAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32548DCE1B9872330050CAFE /* HexClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexClock.swift; sourceTree = "<group>"; };
+		32548DCF1B9872330050CAFE /* NSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32548DA71B985A5D0050CAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32548DBB1B985F8F0050CAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32548DA11B985A5D0050CAFE = {
+			isa = PBXGroup;
+			children = (
+				32548DAD1B985A5D0050CAFE /* Hex Clock */,
+				32548DBF1B985F8F0050CAFE /* Preview */,
+				32548DAC1B985A5D0050CAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32548DAC1B985A5D0050CAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32548DAB1B985A5D0050CAFE /* Hex Clock.saver */,
+				32548DBE1B985F8F0050CAFE /* Preview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32548DAD1B985A5D0050CAFE /* Hex Clock */ = {
+			isa = PBXGroup;
+			children = (
+				32548DB81B985EF10050CAFE /* HexClockView.swift */,
+				32548DCE1B9872330050CAFE /* HexClock.swift */,
+				32548DCF1B9872330050CAFE /* NSColor.swift */,
+				32548DB21B985A5D0050CAFE /* Info.plist */,
+			);
+			path = "Hex Clock";
+			sourceTree = "<group>";
+		};
+		32548DBF1B985F8F0050CAFE /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				32548DC01B985F8F0050CAFE /* AppDelegate.swift */,
+				32548DC21B985F8F0050CAFE /* ViewController.swift */,
+				32548DC41B985F8F0050CAFE /* Assets.xcassets */,
+				32548DC61B985F8F0050CAFE /* Main.storyboard */,
+				32548DC91B985F8F0050CAFE /* Info.plist */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32548DA81B985A5D0050CAFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32548DAA1B985A5D0050CAFE /* Hex Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32548DB51B985A5D0050CAFE /* Build configuration list for PBXNativeTarget "Hex Clock" */;
+			buildPhases = (
+				32548DA61B985A5D0050CAFE /* Sources */,
+				32548DA71B985A5D0050CAFE /* Frameworks */,
+				32548DA81B985A5D0050CAFE /* Headers */,
+				32548DA91B985A5D0050CAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hex Clock";
+			productName = "Hex Clock";
+			productReference = 32548DAB1B985A5D0050CAFE /* Hex Clock.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		32548DBD1B985F8F0050CAFE /* Preview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32548DCA1B985F8F0050CAFE /* Build configuration list for PBXNativeTarget "Preview" */;
+			buildPhases = (
+				32548DBA1B985F8F0050CAFE /* Sources */,
+				32548DBB1B985F8F0050CAFE /* Frameworks */,
+				32548DBC1B985F8F0050CAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Preview;
+			productName = Preview;
+			productReference = 32548DBE1B985F8F0050CAFE /* Preview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32548DA21B985A5D0050CAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tom Diggle";
+				TargetAttributes = {
+					32548DAA1B985A5D0050CAFE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					32548DBD1B985F8F0050CAFE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 32548DA51B985A5D0050CAFE /* Build configuration list for PBXProject "Hex Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32548DA11B985A5D0050CAFE;
+			productRefGroup = 32548DAC1B985A5D0050CAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32548DAA1B985A5D0050CAFE /* Hex Clock */,
+				32548DBD1B985F8F0050CAFE /* Preview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32548DA91B985A5D0050CAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32548DBC1B985F8F0050CAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32548DC51B985F8F0050CAFE /* Assets.xcassets in Resources */,
+				32548DC81B985F8F0050CAFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32548DA61B985A5D0050CAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32548DD21B9872330050CAFE /* NSColor.swift in Sources */,
+				32548DB91B985EF10050CAFE /* HexClockView.swift in Sources */,
+				32548DD41B9873210050CAFE /* HexClock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32548DBA1B985F8F0050CAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32548DC31B985F8F0050CAFE /* ViewController.swift in Sources */,
+				32548DC11B985F8F0050CAFE /* AppDelegate.swift in Sources */,
+				32548DCD1B985F9B0050CAFE /* HexClockView.swift in Sources */,
+				32548DD51B9873240050CAFE /* HexClock.swift in Sources */,
+				32548DD31B9872330050CAFE /* NSColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32548DC61B985F8F0050CAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32548DC71B985F8F0050CAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32548DB31B985A5D0050CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32548DB41B985A5D0050CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		32548DB61B985A5D0050CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hex Clock/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomdiggle.Hex-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		32548DB71B985A5D0050CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hex Clock/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomdiggle.Hex-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		32548DCB1B985F8F0050CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Preview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomdiggle.Preview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32548DCC1B985F8F0050CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Preview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomdiggle.Preview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32548DA51B985A5D0050CAFE /* Build configuration list for PBXProject "Hex Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32548DB31B985A5D0050CAFE /* Debug */,
+				32548DB41B985A5D0050CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32548DB51B985A5D0050CAFE /* Build configuration list for PBXNativeTarget "Hex Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32548DB61B985A5D0050CAFE /* Debug */,
+				32548DB71B985A5D0050CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32548DCA1B985F8F0050CAFE /* Build configuration list for PBXNativeTarget "Preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32548DCB1B985F8F0050CAFE /* Debug */,
+				32548DCC1B985F8F0050CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32548DA21B985A5D0050CAFE /* Project object */;
+}
