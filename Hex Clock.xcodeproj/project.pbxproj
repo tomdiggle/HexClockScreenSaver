@@ -389,6 +389,7 @@
 				32548DB71B985A5D0050CAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32548DCA1B985F8F0050CAFE /* Build configuration list for PBXNativeTarget "Preview" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +398,7 @@
 				32548DCC1B985F8F0050CAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
