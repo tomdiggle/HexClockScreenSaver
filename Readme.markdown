@@ -1,6 +1,6 @@
 # Hex Clock Screen Saver
 
-Hex clock screen saver displays the current time as a color. Inspired from [http://www.jacopocolo.com/hexclock/](http://www.jacopocolo.com/hexclock/).
+Hex clock screen saver displays the current time as a color. Inspired by [http://www.jacopocolo.com/hexclock/](http://www.jacopocolo.com/hexclock/).
 
 ## Requirements
 Hex Clock Screen Saver requires Swift 2.0 and Xcode 7.0 b6 to run.
