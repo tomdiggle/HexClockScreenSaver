@@ -10,10 +10,10 @@ import Cocoa
 
 class HexClock {
     
-    let calendar: NSCalendar
+    let calendar: Calendar
     
     init() {
-        self.calendar = NSCalendar.currentCalendar()
+        self.calendar = Calendar.current
     }
     
     func stringOfCurrentTime() -> String {
@@ -31,9 +31,10 @@ class HexClock {
     }
     
     private func getCurrentTime() -> (hour: Int, minute: Int, second: Int) {
-        var (hour, minute, second, nanosecond) = (0, 0, 0, 0)
-        let date = NSDate()
-        calendar.getHour(&hour, minute: &minute, second: &second, nanosecond: &nanosecond, fromDate: date)
+        let date = Date()
+        let hour = calendar.component(.hour, from: date)
+        let minute = calendar.component(.minute, from: date)
+        let second = calendar.component(.second, from: date)
         
         return (hour, minute, second)
     }

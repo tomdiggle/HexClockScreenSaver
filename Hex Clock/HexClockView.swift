@@ -14,12 +14,12 @@ class HexClockView: ScreenSaverView {
     let textLabel: NSTextField = {
         let label = NSTextField()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.editable = false
+        label.isEditable = false
         label.drawsBackground = false
-        label.bordered = false
-        label.bezeled = false
-        label.selectable = false
-        label.textColor = .whiteColor()
+        label.isBordered = false
+        label.isBezeled = false
+        label.isSelectable = false
+        label.textColor = .white
         return label
     }()
     
@@ -39,15 +39,18 @@ class HexClockView: ScreenSaverView {
     
     // MARK: NSView
     
-    override func drawRect(rect: NSRect) {
-        self.textLabel.font = .systemFontOfSize(bounds.width / 10)
+    override func draw(_ rect: NSRect) {
+        self.textLabel.font = NSFont.monospacedDigitSystemFont(
+                ofSize: bounds.width / 15,
+                weight: .ultraLight
+            )
     }
     
     // MARK: ScreenSaver
     
     override func animateOneFrame() {
         self.textLabel.stringValue = "#" + self.hexClock.stringOfCurrentTime()
-        self.layer?.backgroundColor = self.hexClock.colorFromCurrentTime().CGColor
+        self.layer?.backgroundColor = self.hexClock.colorFromCurrentTime().cgColor
     }
     
     // MARK: Private
@@ -59,9 +62,9 @@ class HexClockView: ScreenSaverView {
         
         addSubview(self.textLabel)
         addConstraints([
-            NSLayoutConstraint(item: self.textLabel, attribute: .CenterX, relatedBy: .Equal, toItem: self, attribute: .CenterX, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: self.textLabel, attribute: .CenterY, relatedBy: .Equal, toItem: self, attribute: .CenterY, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: self.textLabel, attribute: .Width, relatedBy: .LessThanOrEqual, toItem: self, attribute: .Width, multiplier: 0.9, constant: 0)
+            NSLayoutConstraint(item: self.textLabel, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0),
+            NSLayoutConstraint(item: self.textLabel, attribute: .centerY, relatedBy: .equal, toItem: self, attribute: .centerY, multiplier: 1, constant: 0),
+            NSLayoutConstraint(item: self.textLabel, attribute: .width, relatedBy: .lessThanOrEqual, toItem: self, attribute: .width, multiplier: 0.9, constant: 0)
         ])
     }
     
