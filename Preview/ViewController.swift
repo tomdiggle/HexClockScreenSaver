@@ -14,7 +14,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let view = view as? ScreenSaverView {
-            NSTimer.scheduledTimerWithTimeInterval(view.animationTimeInterval, target: view, selector: "animateOneFrame", userInfo: nil, repeats: true)
+            Timer.scheduledTimer(timeInterval: view.animationTimeInterval, target: view, selector: #selector(ScreenSaverView.animateOneFrame), userInfo: nil, repeats: true)
         }
     }
     
